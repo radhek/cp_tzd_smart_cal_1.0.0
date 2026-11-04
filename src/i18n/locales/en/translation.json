@@ -1,0 +1,489 @@
+{
+  "common": {
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "save": "Save",
+    "share": "Share",
+    "history": "History",
+    "favorites": "Favorites",
+    "settings": "Settings",
+    "search": "Search calculators...",
+    "error": "Error",
+    "invalidInput": "Please enter valid values",
+    "years": "Years",
+    "months": "Months",
+    "home": "Home",
+    "explore": "Explore",
+    "delete": "Delete",
+    "clearAll": "Clear All",
+    "noHistory": "No calculation history",
+    "noFavorites": "No favorite calculators",
+    "quickAccess": "Quick Access",
+    "viewAll": "View All",
+    "recentCalculations": "Recent Calculations",
+    "noRecentCalculations": "No Recent Calculations",
+    "tryEmi": "Try EMI Calculator",
+    "all": "All",
+    "reopen": "Reopen",
+    "result": "Calculation Result",
+    "cancel": "Cancel",
+    "startCalculating": "Start Calculating",
+    "browseCalculators": "Browse Calculators",
+    "toolsAvailable": "tools available",
+    "calculatorsFound": "calculators found"
+  },
+  "categories": {
+    "finance": "Finance",
+    "business": "Business",
+    "dailyLife": "Daily Life",
+    "dateTime": "Date & Time",
+    "health": "Health",
+    "converters": "Converters"
+  },
+  "calculators": {
+    "emi": {
+      "title": "EMI Calculator",
+      "description": "Calculate Equated Monthly Installment for loans",
+      "loanAmount": "Loan Amount",
+      "interestRate": "Interest Rate (% p.a.)",
+      "tenure": "Tenure",
+      "monthlyEmi": "Monthly EMI",
+      "totalInterest": "Total Interest",
+      "totalPayment": "Total Payment"
+    },
+    "loan": {
+      "title": "Loan Calculator",
+      "description": "Calculate loan payments and total costs",
+      "amount": "Loan Amount",
+      "rate": "Interest Rate (%)",
+      "time": "Time (Years)",
+      "monthlyPayment": "Monthly Payment",
+      "totalInterest": "Total Interest",
+      "totalPayment": "Total Payment"
+    },
+    "simpleInterest": {
+      "title": "Simple Interest",
+      "description": "Calculate simple interest on your principal",
+      "principal": "Principal Amount",
+      "rate": "Annual Rate (%)",
+      "time": "Time (Years)",
+      "totalInterest": "Total Interest",
+      "principalAmount": "Principal Amount",
+      "totalAmount": "Total Amount"
+    },
+    "compoundInterest": {
+      "title": "Compound Interest",
+      "description": "Calculate compound interest with different frequencies",
+      "principal": "Principal Amount",
+      "rate": "Annual Rate (%)",
+      "time": "Time (Years)",
+      "frequency": "Compounding Frequency",
+      "yearly": "Yearly",
+      "halfYearly": "Half-Yearly",
+      "quarterly": "Quarterly",
+      "monthly": "Monthly",
+      "totalInterest": "Total Interest",
+      "principalAmount": "Principal Amount",
+      "totalAmount": "Total Amount"
+    },
+    "sip": {
+      "title": "SIP Calculator",
+      "description": "Calculate returns for Systematic Investment Plan",
+      "monthlyInvestment": "Monthly Investment",
+      "expectedReturn": "Expected Return (% p.a.)",
+      "time": "Time Period (Years)",
+      "investedAmount": "Invested Amount",
+      "estimatedReturns": "Estimated Returns",
+      "futureValue": "Future Value"
+    },
+    "lumpSum": {
+      "title": "Lump Sum Calculator",
+      "description": "Calculate returns for a one-time investment",
+      "investment": "Total Investment",
+      "rate": "Expected Return (% p.a.)",
+      "time": "Time Period (Years)",
+      "investedAmount": "Invested Amount",
+      "estimatedReturns": "Estimated Returns",
+      "futureValue": "Future Value"
+    },
+    "roi": {
+      "title": "ROI Calculator",
+      "description": "Calculate Return on Investment",
+      "initial": "Initial Investment",
+      "final": "Final Value",
+      "gainLoss": "Total Gain/Loss",
+      "roiPercent": "ROI (%)"
+    },
+    "profitLoss": {
+      "title": "Profit / Loss Calculator",
+      "description": "Calculate profit, loss and margin percentages",
+      "cost": "Cost Price",
+      "revenue": "Selling Price / Revenue",
+      "profit": "Profit Amount",
+      "loss": "Loss Amount",
+      "profitPercent": "Profit (%)",
+      "lossPercent": "Loss (%)"
+    },
+    "margin": {
+      "title": "Margin Calculator",
+      "description": "Calculate gross profit and profit margin",
+      "cost": "Cost Price",
+      "revenue": "Revenue / Selling Price",
+      "grossProfit": "Gross Profit",
+      "marginPercent": "Gross Margin (%)"
+    },
+    "markup": {
+      "title": "Markup Calculator",
+      "description": "Calculate selling price based on markup",
+      "cost": "Cost Price",
+      "markupPercent": "Markup (%)",
+      "sellingPrice": "Selling Price",
+      "grossProfit": "Gross Profit",
+      "marginPercent": "Gross Margin (%)"
+    },
+    "discount": {
+      "title": "Discount Calculator",
+      "description": "Calculate price after discount",
+      "originalPrice": "Original Price",
+      "discountPercent": "Discount (%)",
+      "finalPrice": "Final Price",
+      "discountAmount": "Discount Amount",
+      "savings": "Total Savings"
+    },
+    "gst": {
+      "title": "GST Calculator",
+      "description": "Calculate GST amounts",
+      "baseAmount": "Base Amount",
+      "finalAmount": "Final Amount",
+      "rate": "GST Rate (%)",
+      "totalRate": "Total GST Rate (%)",
+      "rate0": "0%",
+      "rate5": "5%",
+      "rate12": "12%",
+      "rate18": "18%",
+      "rate28": "28%",
+      "gstAmount": "Total GST Amount",
+      "cgst": "CGST",
+      "sgst": "SGST",
+      "igst": "IGST"
+    },
+    "gstInclusive": {
+      "title": "GST Inclusive",
+      "description": "Calculate base amount from total",
+      "finalAmount": "Total Amount (Incl. GST)"
+    },
+    "gstExclusive": {
+      "title": "GST Exclusive",
+      "description": "Calculate final amount from base"
+    },
+    "cgst": {
+      "title": "CGST Calculator",
+      "description": "Calculate Central GST component",
+      "amount": "CGST Amount",
+      "rateApplied": "CGST Rate Applied"
+    },
+    "sgst": {
+      "title": "SGST Calculator",
+      "description": "Calculate State GST component",
+      "amount": "SGST Amount",
+      "rateApplied": "SGST Rate Applied"
+    },
+    "igst": {
+      "title": "IGST Calculator",
+      "description": "Calculate Integrated GST"
+    },
+    "commission": {
+      "title": "Commission Calculator",
+      "description": "Calculate sales commission",
+      "salesAmount": "Sales Amount",
+      "rate": "Commission Rate (%)",
+      "amount": "Commission Amount",
+      "netAmount": "Net Amount (Base - Commission)",
+      "totalAmount": "Total Amount (Base + Commission)"
+    },
+    "breakEven": {
+      "title": "Break-even Calculator",
+      "description": "Calculate break-even point",
+      "fixedCosts": "Total Fixed Costs",
+      "sellingPrice": "Selling Price per Unit",
+      "variableCost": "Variable Cost per Unit",
+      "units": "Break-even Units",
+      "revenue": "Break-even Revenue",
+      "contribution": "Contribution per Unit",
+      "errorPriceLeqVariable": "Selling price must be greater than variable cost"
+    },
+    "business": {
+      "gstType": "GST Type",
+      "intraState": "Intra-State (CGST + SGST)",
+      "interState": "Inter-State (IGST)",
+      "commissionMode": "Commission Mode",
+      "deductCommission": "Deduct Commission",
+      "addCommission": "Add Commission"
+    },
+    "dailyLife": {
+      "normal": {
+        "title": "Normal Calculator",
+        "description": "Standard everyday arithmetic calculator",
+        "expression": "Expression",
+        "result": "Result",
+        "cannotDivideByZero": "Cannot divide by zero",
+        "invalidFormat": "Invalid expression"
+      },
+      "fuelCost": {
+        "title": "Fuel Cost",
+        "description": "Calculate total fuel cost for a journey",
+        "distance": "Distance (km)",
+        "mileage": "Mileage (km/L)",
+        "fuelPrice": "Fuel Price (per L)",
+        "fuelRequired": "Fuel Required (Liters)",
+        "totalCost": "Total Fuel Cost",
+        "costPerKm": "Cost per km"
+      },
+      "mileage": {
+        "title": "Mileage",
+        "description": "Calculate vehicle fuel efficiency",
+        "fuelConsumed": "Fuel Consumed (Liters)",
+        "result": "Mileage (km/L)"
+      },
+      "tripCost": {
+        "title": "Trip Cost",
+        "description": "Calculate fuel cost per person",
+        "travelers": "Number of Travelers",
+        "perPerson": "Cost per Person"
+      },
+      "billSplitter": {
+        "title": "Bill Splitter",
+        "description": "Split restaurant bill and tip",
+        "totalBill": "Total Bill Amount",
+        "people": "Number of People",
+        "tipPercent": "Tip (%)",
+        "tipAmount": "Tip Amount",
+        "finalBill": "Final Bill (incl. Tip)",
+        "perPerson": "Amount per Person"
+      },
+      "tipCalculator": {
+        "title": "Tip Calculator",
+        "description": "Calculate tip amount and total",
+        "totalBill": "Total Amount (incl. Tip)"
+      }
+    },
+    "dateTime": {
+      "age": {
+        "title": "Age Calculator",
+        "description": "Calculate your exact age and next birthday",
+        "dob": "Date of Birth",
+        "asOf": "As of Date",
+        "years": "Years",
+        "months": "Months",
+        "days": "Days",
+        "totalDays": "Total Days",
+        "nextBirthday": "Next Birthday",
+        "daysUntilBirthday": "Days Until Birthday"
+      },
+      "dateDiff": {
+        "title": "Date Difference",
+        "description": "Calculate days between two dates",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "totalDays": "Total Days",
+        "totalWeeks": "Total Weeks",
+        "totalMonths": "Total Months",
+        "calendarDiff": "Calendar Difference"
+      },
+      "addDays": {
+        "title": "Add Days",
+        "description": "Add days to a date",
+        "startDate": "Start Date",
+        "daysToAdd": "Days to Add",
+        "resultDate": "Result Date"
+      },
+      "subDays": {
+        "title": "Subtract Days",
+        "description": "Subtract days from a date",
+        "startDate": "Start Date",
+        "daysToSub": "Days to Subtract",
+        "resultDate": "Result Date"
+      },
+      "workingDays": {
+        "title": "Working Days",
+        "description": "Calculate working days between dates",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "workingDays": "Working Days (Mon-Fri)",
+        "weekendDays": "Weekend Days (Sat-Sun)",
+        "totalDays": "Total Days",
+        "note": "Note: Public holidays are not excluded."
+      },
+      "countdown": {
+        "title": "Countdown Timer",
+        "description": "Countdown to a target date",
+        "targetDate": "Target Date",
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds",
+        "reached": "🎉 Target Reached!"
+      }
+    },
+    "health": {
+      "disclaimer": "Note: These calculators are for informational purposes only and do not constitute medical advice.",
+      "bmi": {
+        "title": "BMI Calculator",
+        "description": "Calculate your Body Mass Index",
+        "weight": "Weight (kg)",
+        "height": "Height (cm)",
+        "result": "BMI",
+        "category": "Category",
+        "underweight": "Underweight",
+        "normal": "Normal",
+        "overweight": "Overweight",
+        "obese": "Obese"
+      },
+      "bmr": {
+        "title": "BMR Calculator",
+        "description": "Calculate your Basal Metabolic Rate",
+        "age": "Age (Years)",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "result": "BMR (Calories/Day)"
+      },
+      "calorie": {
+        "title": "Calorie Calculator",
+        "description": "Estimate daily calorie needs based on activity",
+        "activity": "Activity Level",
+        "sedentary": "Sedentary",
+        "light": "Lightly Active",
+        "moderate": "Moderately Active",
+        "very": "Very Active",
+        "extra": "Extra Active",
+        "result": "Daily Calories"
+      },
+      "idealWeight": {
+        "title": "Ideal Weight",
+        "description": "Estimate your ideal weight range",
+        "result": "Ideal Weight (kg)"
+      }
+    },
+    "converters": {
+      "length": {
+        "title": "Length Converter",
+        "description": "Convert length units"
+      },
+      "weight": {
+        "title": "Weight Converter",
+        "description": "Convert weight units"
+      },
+      "area": {
+        "title": "Area Converter",
+        "description": "Convert area units"
+      },
+      "volume": {
+        "title": "Volume Converter",
+        "description": "Convert volume units"
+      },
+      "temperature": {
+        "title": "Temperature Converter",
+        "description": "Convert temperature units"
+      },
+      "speed": {
+        "title": "Speed Converter",
+        "description": "Convert speed units"
+      },
+      "time": {
+        "title": "Time Converter",
+        "description": "Convert time units"
+      },
+      "data": {
+        "title": "Data Converter",
+        "description": "Convert data storage units"
+      },
+      "pressure": {
+        "title": "Pressure Converter",
+        "description": "Convert pressure units"
+      },
+      "energy": {
+        "title": "Energy Converter",
+        "description": "Convert energy units"
+      },
+      "value": "Value",
+      "from": "From Unit",
+      "to": "To Unit",
+      "swap": "Swap Units",
+      "result": "Result",
+      "units": {
+        "mm": "Millimeter",
+        "cm": "Centimeter",
+        "m": "Meter",
+        "km": "Kilometer",
+        "in": "Inch",
+        "ft": "Foot",
+        "yd": "Yard",
+        "mi": "Mile",
+        "mg": "Milligram",
+        "g": "Gram",
+        "kg": "Kilogram",
+        "oz": "Ounce",
+        "lb": "Pound",
+        "t": "Ton",
+        "sq_mm": "Sq Millimeter",
+        "sq_cm": "Sq Centimeter",
+        "sq_m": "Sq Meter",
+        "sq_km": "Sq Kilometer",
+        "sq_in": "Sq Inch",
+        "sq_ft": "Sq Foot",
+        "sq_yd": "Sq Yard",
+        "acre": "Acre",
+        "hectare": "Hectare",
+        "ml": "Milliliter",
+        "l": "Liter",
+        "cubic_m": "Cubic Meter",
+        "gal": "US Gallon",
+        "qt": "US Quart",
+        "pt": "US Pint",
+        "cup": "US Cup",
+        "fl_oz": "US Fluid Ounce",
+        "c": "Celsius",
+        "f": "Fahrenheit",
+        "k": "Kelvin",
+        "mps": "m/s",
+        "kmph": "km/h",
+        "mph": "mph",
+        "knot": "Knot",
+        "ms": "Millisecond",
+        "s": "Second",
+        "min": "Minute",
+        "hr": "Hour",
+        "day": "Day",
+        "week": "Week",
+        "bit": "Bit",
+        "byte": "Byte",
+        "kb": "Kilobyte",
+        "mb": "Megabyte",
+        "gb": "Gigabyte",
+        "tb": "Terabyte",
+        "pa": "Pascal",
+        "kpa": "Kilopascal",
+        "bar": "Bar",
+        "psi": "PSI",
+        "atm": "Atmosphere",
+        "mmhg": "mmHg",
+        "j": "Joule",
+        "kj": "Kilojoule",
+        "cal": "Calorie",
+        "kcal": "Kilocalorie",
+        "wh": "Watt-hour",
+        "kwh": "Kilowatt-hour"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System Default",
+    "privacyOptions": "Ad Privacy Choices"
+  }
+}

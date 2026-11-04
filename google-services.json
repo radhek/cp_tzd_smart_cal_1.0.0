@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986323937589",
+    "project_id": "smart-calculator-58648",
+    "storage_bucket": "smart-calculator-58648.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986323937589:android:121dd1f64da7fe9bfd847c",
+        "android_client_info": {
+          "package_name": "com.tenzed.smartcalcapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Y7E_17uxJhQhdoRUhl7m0FuqiwmR5G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

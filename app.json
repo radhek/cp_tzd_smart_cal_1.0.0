@@ -1,25 +1,85 @@
 {
   "expo": {
-    "name": "cp_tzd_smart_calculator",
-    "slug": "cp_tzd_smart_calculator",
+    "name": "Smart Calculator",
+    "slug": "smart-calc-assistant",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "scheme": "smartcalc",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tenzed.smartcalcapp",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "Smart Calculator uses this data to deliver personalized ads that keep the app free.",
+        "NSCameraUsageDescription": "Smart Calculator needs camera access to scan and solve physical math problems.",
+        "NSPhotoLibraryUsageDescription": "Smart Calculator needs photo library access so you can select and solve math problems from your saved images."
+      }
     },
     "android": {
+      "package": "com.tenzed.smartcalcapp",
+      "versionCode": 7,
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/android-icon-foreground.png"
       },
-      "predictiveBackGestureEnabled": false
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.VIBRATE"
+      ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-font",
+      "@react-native-community/datetimepicker",
+      "expo-mlkit-ocr",
+      "@react-native-firebase/app",
+      "@react-native-firebase/analytics",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidSdk": "classic",
+          "androidAppId": "ca-app-pub-2857481165308245~7349268676",
+          "iosAppId": "ca-app-pub-2857481165308245~7496250513"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "956e1933-4315-4d4d-8a57-65bc9bae3bc5"
+      }
     }
   }
 }

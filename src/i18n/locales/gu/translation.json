@@ -1,0 +1,489 @@
+{
+  "common": {
+    "calculate": "ગણતરી કરો",
+    "reset": "રીસેટ",
+    "save": "સાચવો",
+    "share": "શેર કરો",
+    "history": "ઇતિહાસ",
+    "favorites": "મનપસંદ",
+    "settings": "સેટિંગ્સ",
+    "search": "કેલ્ક્યુલેટર શોધો...",
+    "error": "ભૂલ",
+    "invalidInput": "કૃપા કરીને માન્ય મૂલ્યો દાખલ કરો",
+    "years": "વર્ષ",
+    "months": "મહિના",
+    "home": "હોમ",
+    "explore": "એક્સપ્લોર",
+    "delete": "કાઢી નાખો",
+    "clearAll": "બધું સાફ કરો",
+    "noHistory": "કોઈ ગણતરીનો ઇતિહાસ નથી",
+    "noFavorites": "કોઈ મનપસંદ કેલ્ક્યુલેટર નથી",
+    "quickAccess": "ઝડપી પ્રવેશ",
+    "viewAll": "બધા જુઓ",
+    "recentCalculations": "તાજેતરની ગણતરીઓ",
+    "noRecentCalculations": "કોઈ તાજેતરની ગણતરી નથી",
+    "tryEmi": "EMI કેલ્ક્યુલેટર અજમાવો",
+    "all": "બધા",
+    "reopen": "ફરી ખોલો",
+    "result": "ગણતરીનું પરિણામ",
+    "cancel": "રદ કરો",
+    "startCalculating": "ગણતરી શરૂ કરો",
+    "browseCalculators": "કેલ્ક્યુલેટર બ્રાઉઝ કરો",
+    "toolsAvailable": "સાધનો ઉપલબ્ધ છે",
+    "calculatorsFound": "કેલ્ક્યુલેટર મળ્યા"
+  },
+  "categories": {
+    "finance": "ફાઇનાન્સ",
+    "business": "બિઝનેસ",
+    "dailyLife": "રોજિંદુ જીવન",
+    "dateTime": "તારીખ અને સમય",
+    "health": "આરોગ્ય",
+    "converters": "કન્વર્ટર્સ"
+  },
+  "calculators": {
+    "emi": {
+      "title": "ઈએમઆઈ કેલ્ક્યુલેટર",
+      "description": "લોન માટે માસિક EMI ની ગણતરી કરો",
+      "loanAmount": "લોનની રકમ",
+      "interestRate": "વ્યાજ દર (% વાર્ષિક)",
+      "tenure": "મુદત",
+      "monthlyEmi": "માસિક EMI",
+      "totalInterest": "કુલ વ્યાજ",
+      "totalPayment": "કુલ ચુકવણી"
+    },
+    "loan": {
+      "title": "લોન કેલ્ક્યુલેટર",
+      "description": "લોન ચુકવણી અને કુલ ખર્ચની ગણતરી કરો",
+      "amount": "લોનની રકમ",
+      "rate": "વ્યાજ દર (%)",
+      "time": "સમય (વર્ષ)",
+      "monthlyPayment": "માસિક ચુકવણી",
+      "totalInterest": "કુલ વ્યાજ",
+      "totalPayment": "કુલ ચુકવણી"
+    },
+    "simpleInterest": {
+      "title": "સાદું વ્યાજ",
+      "description": "તમારી મુદ્દલ પર સાદું વ્યાજ ગણો",
+      "principal": "મુદ્દલ",
+      "rate": "વાર્ષિક દર (%)",
+      "time": "સમય (વર્ષ)",
+      "totalInterest": "કુલ વ્યાજ",
+      "principalAmount": "મુદ્દલ",
+      "totalAmount": "કુલ રકમ"
+    },
+    "compoundInterest": {
+      "title": "ચક્રવૃદ્ધિ વ્યાજ",
+      "description": "વિવિધ આવૃત્તિઓ સાથે ચક્રવૃદ્ધિ વ્યાજ ગણો",
+      "principal": "મુદ્દલ",
+      "rate": "વાર્ષિક દર (%)",
+      "time": "સમય (વર્ષ)",
+      "frequency": "આવૃત્તિ",
+      "yearly": "વાર્ષિક",
+      "halfYearly": "અર્ધ-વાર્ષિક",
+      "quarterly": "ત્રિમાસિક",
+      "monthly": "માસિક",
+      "totalInterest": "કુલ વ્યાજ",
+      "principalAmount": "મુદ્દલ",
+      "totalAmount": "કુલ રકમ"
+    },
+    "sip": {
+      "title": "SIP કેલ્ક્યુલેટર",
+      "description": "સિસ્ટમેટિક ઇન્વેસ્ટમેન્ટ પ્લાન માટે રિટર્ન ગણો",
+      "monthlyInvestment": "માસિક રોકાણ",
+      "expectedReturn": "અપેક્ષિત રિટર્ન (% વાર્ષિક)",
+      "time": "સમયગાળો (વર્ષ)",
+      "investedAmount": "રોકાણ કરેલી રકમ",
+      "estimatedReturns": "અંદાજિત રિટર્ન",
+      "futureValue": "ભવિષ્યનું મૂલ્ય"
+    },
+    "lumpSum": {
+      "title": "લમ્પ સમ (Lump Sum) કેલ્ક્યુલેટર",
+      "description": "એક વખતનાં રોકાણ માટે રિટર્નની ગણતરી કરો",
+      "investment": "કુલ રોકાણ",
+      "rate": "અપેક્ષિત રિટર્ન (% વાર્ષિક)",
+      "time": "સમયગાળો (વર્ષ)",
+      "investedAmount": "રોકાણ કરેલી રકમ",
+      "estimatedReturns": "અંદાજિત રિટર્ન",
+      "futureValue": "ભવિષ્યનું મૂલ્ય"
+    },
+    "roi": {
+      "title": "ROI કેલ્ક્યુલેટર",
+      "description": "રોકાણ પર રિટર્ન (ROI) ની ગણતરી કરો",
+      "initial": "પ્રારંભિક રોકાણ",
+      "final": "અંતિમ મૂલ્ય",
+      "gainLoss": "કુલ નફો/નુકસાન",
+      "roiPercent": "ROI (%)"
+    },
+    "profitLoss": {
+      "title": "નફો / નુકસાન કેલ્ક્યુલેટર",
+      "description": "નફો, નુકસાન અને માર્જિનની ટકાવારી ગણો",
+      "cost": "મૂળ કિંમત",
+      "revenue": "વેચાણ કિંમત / આવક",
+      "profit": "નફાની રકમ",
+      "loss": "નુકસાનની રકમ",
+      "profitPercent": "નફો (%)",
+      "lossPercent": "નુકસાન (%)"
+    },
+    "margin": {
+      "title": "માર્જિન કેલ્ક્યુલેટર",
+      "description": "ગ્રોસ નફો અને પ્રોફિટ માર્જિન ગણો",
+      "cost": "મૂળ કિંમત",
+      "revenue": "આવક / વેચાણ કિંમત",
+      "grossProfit": "ગ્રોસ નફો",
+      "marginPercent": "ગ્રોસ માર્જિન (%)"
+    },
+    "markup": {
+      "title": "માર્કઅપ કેલ્ક્યુલેટર",
+      "description": "માર્કઅપના આધારે વેચાણ કિંમત ગણો",
+      "cost": "મૂળ કિંમત",
+      "markupPercent": "માર્કઅપ (%)",
+      "sellingPrice": "વેચાણ કિંમત",
+      "grossProfit": "ગ્રોસ નફો",
+      "marginPercent": "ગ્રોસ માર્જિન (%)"
+    },
+    "discount": {
+      "title": "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર",
+      "description": "ડિસ્કાઉન્ટ પછીની કિંમત ગણો",
+      "originalPrice": "મૂળ કિંમત",
+      "discountPercent": "ડિસ્કાઉન્ટ (%)",
+      "finalPrice": "અંતિમ કિંમત",
+      "discountAmount": "ડિસ્કાઉન્ટની રકમ",
+      "savings": "કુલ બચત"
+    },
+    "gst": {
+      "title": "GST કેલ્ક્યુલેટર",
+      "description": "GST રકમની ગણતરી કરો",
+      "baseAmount": "મૂળ રકમ",
+      "finalAmount": "અંતિમ રકમ",
+      "rate": "GST દર (%)",
+      "totalRate": "કુલ GST દર (%)",
+      "rate0": "0%",
+      "rate5": "5%",
+      "rate12": "12%",
+      "rate18": "18%",
+      "rate28": "28%",
+      "gstAmount": "કુલ GST રકમ",
+      "cgst": "CGST",
+      "sgst": "SGST",
+      "igst": "IGST"
+    },
+    "gstInclusive": {
+      "title": "GST ઇન્ક્લુઝિવ",
+      "description": "કુલમાંથી મૂળ રકમની ગણતરી કરો",
+      "finalAmount": "કુલ રકમ (GST સાથે)"
+    },
+    "gstExclusive": {
+      "title": "GST એક્સક્લુઝિવ",
+      "description": "મૂળમાંથી અંતિમ રકમની ગણતરી કરો"
+    },
+    "cgst": {
+      "title": "CGST કેલ્ક્યુલેટર",
+      "description": "કેન્દ્રીય GST ભાગની ગણતરી કરો",
+      "amount": "CGST રકમ",
+      "rateApplied": "લાગુ પડેલ CGST દર"
+    },
+    "sgst": {
+      "title": "SGST કેલ્ક્યુલેટર",
+      "description": "રાજ્ય GST ભાગની ગણતરી કરો",
+      "amount": "SGST રકમ",
+      "rateApplied": "લાગુ પડેલ SGST દર"
+    },
+    "igst": {
+      "title": "IGST કેલ્ક્યુલેટર",
+      "description": "સંકલિત GST ની ગણતરી કરો"
+    },
+    "commission": {
+      "title": "કમિશન કેલ્ક્યુલેટર",
+      "description": "વેચાણ કમિશનની ગણતરી કરો",
+      "salesAmount": "વેચાણની રકમ",
+      "rate": "કમિશન દર (%)",
+      "amount": "કમિશન રકમ",
+      "netAmount": "ચોખ્ખી રકમ (મૂળ - કમિશન)",
+      "totalAmount": "કુલ રકમ (મૂળ + કમિશન)"
+    },
+    "breakEven": {
+      "title": "બ્રેક-ઇવન કેલ્ક્યુલેટર",
+      "description": "બ્રેક-ઇવન પોઇન્ટની ગણતરી કરો",
+      "fixedCosts": "કુલ નિશ્ચિત ખર્ચ",
+      "sellingPrice": "યુનિટ દીઠ વેચાણ કિંમત",
+      "variableCost": "યુનિટ દીઠ ચલ ખર્ચ",
+      "units": "બ્રેક-ઇવન એકમો",
+      "revenue": "બ્રેક-ઇવન આવક",
+      "contribution": "યુનિટ દીઠ યોગદાન",
+      "errorPriceLeqVariable": "વેચાણ કિંમત ચલ ખર્ચ કરતા વધુ હોવી જોઈએ"
+    },
+    "business": {
+      "gstType": "GST પ્રકાર",
+      "intraState": "ઇન્ટ્રા-સ્ટેટ (CGST + SGST)",
+      "interState": "ઇન્ટર-સ્ટેટ (IGST)",
+      "commissionMode": "કમિશન મોડ",
+      "deductCommission": "કમિશન કાપો",
+      "addCommission": "કમિશન ઉમેરો"
+    },
+    "dailyLife": {
+      "normal": {
+        "title": "સામાન્ય કેલ્ક્યુલેટર",
+        "description": "રોજિંદા ઉપયોગ માટે સામાન્ય અંકગણિત કેલ્ક્યુલેટર",
+        "expression": "સમીકરણ",
+        "result": "પરિણામ",
+        "cannotDivideByZero": "શૂન્ય વડે ભાગી શકાતું નથી",
+        "invalidFormat": "અમાન્ય સમીકરણ"
+      },
+      "fuelCost": {
+        "title": "ઇંધણ ખર્ચ",
+        "description": "મુસાફરી માટે કુલ ઇંધણ ખર્ચની ગણતરી કરો",
+        "distance": "અંતર (km)",
+        "mileage": "માઇલેજ (km/L)",
+        "fuelPrice": "ઇંધણ કિંમત (પ્રતિ L)",
+        "fuelRequired": "જરૂરી ઇંધણ (લિટર)",
+        "totalCost": "કુલ ઇંધણ ખર્ચ",
+        "costPerKm": "કિમી દીઠ ખર્ચ"
+      },
+      "mileage": {
+        "title": "માઇલેજ",
+        "description": "વાહન બળતણ કાર્યક્ષમતાની ગણતરી કરો",
+        "fuelConsumed": "વપરાયેલ ઇંધણ (લિટર)",
+        "result": "માઇલેજ (km/L)"
+      },
+      "tripCost": {
+        "title": "પ્રવાસ ખર્ચ",
+        "description": "વ્યક્તિ દીઠ ઇંધણ ખર્ચની ગણતરી કરો",
+        "travelers": "મુસાફરોની સંખ્યા",
+        "perPerson": "વ્યક્તિ દીઠ ખર્ચ"
+      },
+      "billSplitter": {
+        "title": "બિલ સ્પ્લિટર",
+        "description": "રેસ્ટોરન્ટ બિલ અને ટિપ વિભાજિત કરો",
+        "totalBill": "કુલ બિલ રકમ",
+        "people": "લોકોની સંખ્યા",
+        "tipPercent": "ટિપ (%)",
+        "tipAmount": "ટિપ રકમ",
+        "finalBill": "અંતિમ બિલ (ટિપ સાથે)",
+        "perPerson": "વ્યક્તિ દીઠ રકમ"
+      },
+      "tipCalculator": {
+        "title": "ટિપ કેલ્ક્યુલેટર",
+        "description": "ટિપની રકમ અને કુલ ગણતરી કરો",
+        "totalBill": "કુલ રકમ (ટિપ સાથે)"
+      }
+    },
+    "dateTime": {
+      "age": {
+        "title": "ઉંમર કેલ્ક્યુલેટર",
+        "description": "તમારી ચોક્કસ ઉંમર અને આગામી જન્મદિવસની ગણતરી કરો",
+        "dob": "જન્મ તારીખ",
+        "asOf": "આજની તારીખ",
+        "years": "વર્ષ",
+        "months": "મહિના",
+        "days": "દિવસો",
+        "totalDays": "કુલ દિવસો",
+        "nextBirthday": "આગામી જન્મદિવસ",
+        "daysUntilBirthday": "જન્મદિવસ સુધીના દિવસો"
+      },
+      "dateDiff": {
+        "title": "તારીખનો તફાવત",
+        "description": "બે તારીખો વચ્ચેના દિવસોની ગણતરી કરો",
+        "startDate": "શરૂઆતની તારીખ",
+        "endDate": "અંતની તારીખ",
+        "totalDays": "કુલ દિવસો",
+        "totalWeeks": "કુલ અઠવાડિયા",
+        "totalMonths": "કુલ મહિના",
+        "calendarDiff": "કેલેન્ડર તફાવત"
+      },
+      "addDays": {
+        "title": "દિવસો ઉમેરો",
+        "description": "તારીખમાં દિવસો ઉમેરો",
+        "startDate": "શરૂઆતની તારીખ",
+        "daysToAdd": "ઉમેરવાના દિવસો",
+        "resultDate": "પરિણામ તારીખ"
+      },
+      "subDays": {
+        "title": "દિવસો બાદ કરો",
+        "description": "તારીખમાંથી દિવસો બાદ કરો",
+        "startDate": "શરૂઆતની તારીખ",
+        "daysToSub": "બાદ કરવાના દિવસો",
+        "resultDate": "પરિણામ તારીખ"
+      },
+      "workingDays": {
+        "title": "કામના દિવસો",
+        "description": "તારીખો વચ્ચે કામના દિવસોની ગણતરી કરો",
+        "startDate": "શરૂઆતની તારીખ",
+        "endDate": "અંતની તારીખ",
+        "workingDays": "કામના દિવસો (સોમ-શુક્ર)",
+        "weekendDays": "સપ્તાહાંતના દિવસો (શનિ-રવિ)",
+        "totalDays": "કુલ દિવસો",
+        "note": "નોંધ: જાહેર રજાઓ બાકાત નથી."
+      },
+      "countdown": {
+        "title": "કાઉન્ટડાઉન ટાઈમર",
+        "description": "લક્ષ્યાંક તારીખ સુધીની ઊલટી ગણતરી",
+        "targetDate": "લક્ષ્યાંક તારીખ",
+        "days": "દિવસો",
+        "hours": "કલાક",
+        "minutes": "મિનિટ",
+        "seconds": "સેકન્ડ",
+        "reached": "🎉 લક્ષ્યાંક પૂરો થયો!"
+      }
+    },
+    "health": {
+      "disclaimer": "નોંધ: આ કેલ્ક્યુલેટર ફક્ત માહિતીના હેતુઓ માટે છે અને તબીબી સલાહ નથી.",
+      "bmi": {
+        "title": "BMI કેલ્ક્યુલેટર",
+        "description": "તમારા બોડી માસ ઇન્ડેક્સ (BMI) ની ગણતરી કરો",
+        "weight": "વજન (કિગ્રા)",
+        "height": "ઊંચાઈ (સેમી)",
+        "result": "BMI",
+        "category": "શ્રેણી",
+        "underweight": "ઓછું વજન",
+        "normal": "સામાન્ય",
+        "overweight": "વધુ વજન",
+        "obese": "મેદસ્વી"
+      },
+      "bmr": {
+        "title": "BMR કેલ્ક્યુલેટર",
+        "description": "તમારા બેસલ મેટાબોલિક રેટ (BMR) ની ગણતરી કરો",
+        "age": "ઉંમર (વર્ષ)",
+        "gender": "લિંગ",
+        "male": "પુરુષ",
+        "female": "સ્ત્રી",
+        "result": "BMR (કેલરી/દિવસ)"
+      },
+      "calorie": {
+        "title": "કેલરી કેલ્ક્યુલેટર",
+        "description": "પ્રવૃત્તિના આધારે દૈનિક કેલરી જરૂરિયાતનો અંદાજ લગાવો",
+        "activity": "પ્રવૃત્તિ સ્તર",
+        "sedentary": "બેઠાડુ",
+        "light": "થોડું સક્રિય",
+        "moderate": "મધ્યમ સક્રિય",
+        "very": "ખૂબ સક્રિય",
+        "extra": "અત્યંત સક્રિય",
+        "result": "દૈનિક કેલરી"
+      },
+      "idealWeight": {
+        "title": "આદર્શ વજન",
+        "description": "તમારા આદર્શ વજનની શ્રેણીનો અંદાજ લગાવો",
+        "result": "આદર્શ વજન (કિગ્રા)"
+      }
+    },
+    "converters": {
+      "length": {
+        "title": "લંબાઈ કન્વર્ટર",
+        "description": "લંબાઈના એકમો બદલો"
+      },
+      "weight": {
+        "title": "વજન કન્વર્ટર",
+        "description": "વજનના એકમો બદલો"
+      },
+      "area": {
+        "title": "વિસ્તાર કન્વર્ટર",
+        "description": "વિસ્તારના એકમો બદલો"
+      },
+      "volume": {
+        "title": "કદ કન્વર્ટર",
+        "description": "કદના એકમો બદલો"
+      },
+      "temperature": {
+        "title": "તાપમાન કન્વર્ટર",
+        "description": "તાપમાનના એકમો બદલો"
+      },
+      "speed": {
+        "title": "ઝડપ કન્વર્ટર",
+        "description": "ઝડપના એકમો બદલો"
+      },
+      "time": {
+        "title": "સમય કન્વર્ટર",
+        "description": "સમયના એકમો બદલો"
+      },
+      "data": {
+        "title": "ડેટા કન્વર્ટર",
+        "description": "ડેટાના એકમો બદલો"
+      },
+      "pressure": {
+        "title": "દબાણ કન્વર્ટર",
+        "description": "દબાણના એકમો બદલો"
+      },
+      "energy": {
+        "title": "ઊર્જા કન્વર્ટર",
+        "description": "ઊર્જાના એકમો બદલો"
+      },
+      "value": "મૂલ્ય",
+      "from": "થી (એકમ)",
+      "to": "માં (એકમ)",
+      "swap": "બદલો (Swap)",
+      "result": "પરિણામ",
+      "units": {
+        "mm": "મિલિમીટર",
+        "cm": "સેન્ટીમીટર",
+        "m": "મીટર",
+        "km": "કિલોમીટર",
+        "in": "ઇંચ",
+        "ft": "ફૂટ",
+        "yd": "યાર્ડ",
+        "mi": "માઇલ",
+        "mg": "મિલિગ્રામ",
+        "g": "ગ્રામ",
+        "kg": "કિલોગ્રામ",
+        "oz": "ઔંસ",
+        "lb": "પાઉન્ડ",
+        "t": "ટન",
+        "sq_mm": "ચોરસ મિલિમીટર",
+        "sq_cm": "ચોરસ સેન્ટીમીટર",
+        "sq_m": "ચોરસ મીટર",
+        "sq_km": "ચોરસ કિલોમીટર",
+        "sq_in": "ચોરસ ઇંચ",
+        "sq_ft": "ચોરસ ફૂટ",
+        "sq_yd": "ચોરસ યાર્ડ",
+        "acre": "એકર",
+        "hectare": "હેક્ટર",
+        "ml": "મિલિલીટર",
+        "l": "લિટર",
+        "cubic_m": "ઘન મીટર",
+        "gal": "ગેલન (US)",
+        "qt": "ક્વાર્ટ (US)",
+        "pt": "પિન્ટ (US)",
+        "cup": "કપ (US)",
+        "fl_oz": "પ્રવાહી ઔંસ (US)",
+        "c": "સેલ્સિયસ",
+        "f": "ફેરનહીટ",
+        "k": "કેલ્વિન",
+        "mps": "મી/સે",
+        "kmph": "કિમી/કલાક",
+        "mph": "માઇલ/કલાક",
+        "knot": "નોટ",
+        "ms": "મિલિસેકન્ડ",
+        "s": "સેકન્ડ",
+        "min": "મિનિટ",
+        "hr": "કલાક",
+        "day": "દિવસ",
+        "week": "અઠવાડિયું",
+        "bit": "બીટ",
+        "byte": "બાઇટ",
+        "kb": "કિલોબાઇટ",
+        "mb": "મેગાબાઇટ",
+        "gb": "ગીગાબાઇટ",
+        "tb": "ટેરાબાઇટ",
+        "pa": "પાસ્કલ",
+        "kpa": "કિલોપાસ્કલ",
+        "bar": "બાર",
+        "psi": "પીએસઆઈ",
+        "atm": "એટમોસ્ફિયર",
+        "mmhg": "એમએમએચજી",
+        "j": "જૂલ",
+        "kj": "કિલોજૂલ",
+        "cal": "કેલરી",
+        "kcal": "કિલોકેલરી",
+        "wh": "વોટ-કલાક",
+        "kwh": "કિલોવોટ-કલાક"
+      }
+    }
+  },
+  "settings": {
+    "title": "સેટિંગ્સ",
+    "theme": "થીમ",
+    "language": "ભાષા",
+    "light": "લાઇટ",
+    "dark": "ડાર્ક",
+    "system": "સિસ્ટમ ડિફૉલ્ટ",
+    "privacyOptions": "જાહેરાત ગોપનીયતા વિકલ્પો"
+  }
+}
